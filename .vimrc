@@ -1,4 +1,4 @@
-"Vim Config Fil]e
+" Vim Config Fil]e
 
 set nocompatible
 
@@ -7,12 +7,12 @@ syntax off
 
 " enable line numbers
 set number
-
+set relativenumber
 " enable cursor line
 set cursorline
 :highlight Cursorline cterm=bold ctermbg=black
 
-" enable smartcase search
+" enable smartcase search (press )
 set ignorecase
 set smartcase
 
@@ -35,17 +35,15 @@ set listchars=tab:»\ ,trail:·,extends:>,precedes:<,nbsp:␣,space:·
 set list
 set colorcolumn=80
 
-
 " colorscheme config
 set background=dark
 
-" Key Mappings
+" Key Mappings------------------------------------------------------------------
 let mapleader = " "
 
 " Window Split
 map <leader>h :split<Space>
 map <leader>v :vsplit<Space>
-
 
 " NerdTree
 nnoremap <leader>n :NERDTreeFocus<CR>
@@ -56,6 +54,8 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " Enable/Disable highlight search
 nnoremap <leader>hi <cmd>set hlsearch!<cr>
 
+
+" Plugins-----------------------------------------------------------------------
 call plug#begin('~/.vim/plugged')
 
 " Status bar
@@ -83,6 +83,21 @@ call plug#end()
 set termguicolors
 colorscheme catppuccin_mocha
 
+" auto indent on save
+augroup auto_indent_on_save
+	autocmd!
+	autocmd BufWritePre * normal! gg=G
+augroup END
+
+
+" Highlight trailing spaces and tabs in red
+highlight TrailingSpaces ctermbg=red guibg=red
+
+" Add autocmd to highlight trailing spaces and tabs when entering normal mode
+autocmd InsertLeave * match TrailingSpaces /\s\+$/
+
+" Add autocmd to clear the highlighting when entering insert mode
+autocmd InsertEnter * call clearmatches()
 
 " Status bar configuration -----------------------------------------------------
 function! AirlineInitConfig()

@@ -31,7 +31,7 @@ autocmd BufWritePre * %s/\s\+$//e
 set showmatch
 
 " show invisible characters
-set listchars=tab:»\ ,trail:·,extends:>,precedes:<,nbsp:␣,space:·
+set listchars=tab:›\ ,trail:·,extends:>,precedes:<,nbsp:␣,space:·
 set list
 set colorcolumn=80
 

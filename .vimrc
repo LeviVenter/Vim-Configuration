@@ -91,10 +91,10 @@ set termguicolors
 colorscheme catppuccin_mocha
 
 " auto indent on save
-augroup auto_indent_on_save
-	autocmd!
-	autocmd BufWritePre * normal! gg=G
-augroup END
+"augroup auto_indent_on_save
+"	autocmd!
+"	autocmd BufWritePre * normal! gg=G
+"augroup END
 
 
 " Highlight trailing spaces and tabs in red
@@ -167,7 +167,7 @@ function! AirlineInitConfig()
 				\ 'coc-explorer':  [ 'CoC Explorer', '' ],
 				\ 'defx':  ['defx', '%{b:defx.paths[0]}'],
 				\ 'fugitive': ['fugitive', '%{airline#util#wrap(airline#extensions#branch#get_head(),80)}'],
-				\ 'floggraph':  [ 'Flog', '%{get(b:, "flog_status_summary", "")}' ],
+				\ 'floggraph':	[ 'Flog', '%{get(b:, "flog_status_summary", "")}' ],
 				\ 'gundo': [ 'Gundo', '' ],
 				\ 'help':  [ 'Help', '%f' ],
 				\ 'minibufexpl': [ 'MiniBufExplorer', '' ],

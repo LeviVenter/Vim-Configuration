@@ -182,3 +182,4 @@ function! AirlineInitConfig()
 endfunction
 autocmd User AirlineAfterInit call AirlineInitConfig()
 
+au FileType simpl set autoindent expandtab softtabstop=5 shiftwidth=4 tabstop=4 textwidth=80

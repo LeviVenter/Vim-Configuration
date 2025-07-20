@@ -1,6 +1,6 @@
 # Vim-Configuration
 
-Run the setup.sh to create required directories, use "chmod +x setup.sh" to fix permission issues.
+Run setup.sh from home directory to create required subdirectories, incase of persmission issues use "chmod +x setup.sh.
 
 
 

@@ -11,10 +11,10 @@ A minimalist vim configuration.
 
 __Plugins:__ 
 
- To install plug manager put vim.plug in your autoload folder
+ To install the plug manager, download and put vim.plug in your autoload folder
  - Vim Plug (https://github.com/junegunn/vim-plug)
 
-   For the rest of the plugins just clone them to plugged folder
+For the rest of the plugins just clone them to plugged folder
  - Polyglot (https://github.com/sheerun/vim-polyglot)
  - Catpuccin (https://github.com/catppuccin/catppuccin)
  - Gruvbox (https://github.com/morhetz/gruvbox)

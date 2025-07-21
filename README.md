@@ -23,7 +23,7 @@ For the rest of the plugins just clone them to .vim/plugged folder
  - Airline Themes (https://github.com/vim-airline/vim-airline-themes)
  - Vim Prettier (https://github.com/prettier/vim-prettier)
 
-Once in vim use :PlugInstall to install your plugins
+Once in vim use ":PlugInstall" to install your plugins
 
 
 

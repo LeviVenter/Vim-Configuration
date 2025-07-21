@@ -80,7 +80,6 @@ Plug 'sheerun/vim-polyglot'
 
 " Colorschemes
 Plug 'morhetz/gruvbox'
-Plug 'dracula/vim', { 'name': 'dracula' }
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'vim-scripts/AutoComplPop'
 

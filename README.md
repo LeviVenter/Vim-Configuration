@@ -6,6 +6,8 @@ A minimalist vim configuration.
 
 1. Clone this repository to your home directory.
 2. Run "./setup.sh" to create required subdirectories, incase of persmission issues use "chmod +x setup.sh"
+3. Add "export VIMINIT='source ~/Vim-Configuration/.vimrc'" to your .bashrc or .zshrc
+4. Then in your terminal do "source .bashrc" / "source .zshrc"
 
 __Plugins:__ (follow install instructions)
  - Vim Plug (https://github.com/junegunn/vim-plug)

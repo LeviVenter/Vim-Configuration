@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the root directory
-rootdir="~/.vim"
+rootdir="$HOME/.vim"
 
 # Create the root directory if it doesn't exist
 if [ ! -d "$rootdir" ]; then

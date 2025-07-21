@@ -3,7 +3,7 @@
 Run setup.sh from home directory to create required subdirectories, incase of persmission issues use "chmod +x setup.sh.
 
 ## Requirements
- __Plugins:__ (clone these while in .vim directory)
+ __Plugins:__ (clone these while in .vim/plugged/ directory)
  - https://github.com/junegunn/vim-plug?tab=readme-ov-file
  - https://github.com/catppuccin/catppuccin
  - https://github.com/neoclide/coc.nvim

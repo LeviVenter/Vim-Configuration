@@ -11,7 +11,7 @@ A minimalist vim configuration.
 
 __Plugins:__ 
 
- To install the plug manager, download and put vim.plug in your autoload folder
+ To install the plug manager, download and put vim.plug in your autoload folder, then follow instructoins on how to enable plugins
  - Vim Plug (https://github.com/junegunn/vim-plug)
 
 For the rest of the plugins just clone them to plugged folder

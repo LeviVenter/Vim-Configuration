@@ -4,8 +4,8 @@ A minimalist vim configuration.
 
 ## Setup
 
-1. Clone this repository to your home directory
-2. Run setup.sh from home directory to create required subdirectories, incase of persmission issues use "chmod +x setup.sh.
+1. Clone this repository to your home directory.
+2. Run "./setup.sh" to create required subdirectories, incase of persmission issues use "chmod +x setup.sh"
 
 __Plugins:__ (follow install instructions)
  - Vim Plug (https://github.com/junegunn/vim-plug)

@@ -9,8 +9,12 @@ A minimalist vim configuration.
 3. Add "export VIMINIT='source ~/Vim-Configuration/.vimrc'" to your .bashrc or .zshrc
 4. Then in your terminal do "source .bashrc" / "source .zshrc"
 
-__Plugins:__ (follow Vim-Plug instructions on how to install plugins)
+__Plugins:__ 
+
+ To install plug manager put vim.plug in your autoload folder
  - Vim Plug (https://github.com/junegunn/vim-plug)
+
+   For the rest of the plugins just clone them to plugged folder
  - Polyglot (https://github.com/sheerun/vim-polyglot)
  - Catpuccin (https://github.com/catppuccin/catppuccin)
  - Gruvbox (https://github.com/morhetz/gruvbox)

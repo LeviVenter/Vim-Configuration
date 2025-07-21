@@ -1,6 +1,6 @@
 # Vim-Configuration
 
-A minimalist vim configuration offering simple customization.
+A minimalist vim configuration.
 
 ## Setup
 

@@ -3,8 +3,8 @@
 Run setup.sh from home directory to create required subdirectories, incase of persmission issues use "chmod +x setup.sh.
 
 ## Requirements
- __Plugins:__ (clone these while in .vim/plugged/ directory)
- - Vim Plug (https://github.com/junegunn/vim-plug , copy to .vim/autoload)
+ __Plugins:__ (follow install instructions)
+ - Vim Plug (https://github.com/junegunn/vim-plug)
  - Polyglot (https://github.com/sheerun/vim-polyglot)
  - Catpuccin (https://github.com/catppuccin/catppuccin)
  - Gruvbox (https://github.com/morhetz/gruvbox)

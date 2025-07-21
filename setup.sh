@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the root directory
-rootdir=".vim"
+rootdir="~/.vim"
 
 # Create the root directory if it doesn't exist
 if [ ! -d "$rootdir" ]; then
@@ -12,7 +12,7 @@ else
 fi
 
 # List of subdirectories to create
-subdirs=("autoload" "colors" "plugged" "syntax" "undodir")
+subdirs=("autoload" "plugged" "syntax" "undodir")
 
 # Create each subdirectory
 for subdir in "${subdirs[@]}"; do

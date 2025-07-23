@@ -81,6 +81,9 @@ Plug 'sheerun/vim-polyglot'
 " Colorschemes
 Plug 'morhetz/gruvbox'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+
 Plug 'vim-scripts/AutoComplPop'
 
 call plug#end()
